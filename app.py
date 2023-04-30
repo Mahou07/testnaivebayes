@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 from streamlit_pandas_profiling import st_profile_report
 import os
+import pandas_profiling
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
